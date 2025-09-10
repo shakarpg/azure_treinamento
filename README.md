@@ -3,6 +3,7 @@
 Este repositório contém todos os recursos, exercícios e anotações do treinamento sobre **Microsoft Azure** que você fez. O objetivo aqui é consolidar o conhecimento adquirido e documentar as práticas realizadas durante o processo de aprendizado.
 
 ---
+![imagem vm](/img/azure.jpg)
 
 ## Índice
 - [Introdução ao Azure](#introdução-ao-azure)
@@ -30,9 +31,6 @@ Durante o treinamento, aprendemos os conceitos fundamentais sobre **Microsoft Az
 - **Criação de uma conta no Azure**
   - Como criar uma conta no [Microsoft Azure](https://azure.microsoft.com/).
 
-![Criação de Conta Azure](images/criacao-conta-azure.png)
-> *Exemplo da criação de conta no Azure.*
-
 ---
 
 ## Gerenciamento de Recursos
@@ -52,17 +50,21 @@ Uma das primeiras coisas que aprendemos foi como gerenciar os **recursos no Azur
 
 Uma das tarefas mais práticas foi aprender a configurar Máquinas Virtuais (VMs) no Azure. Durante este processo, vimos:
 
+![imagem vm](/img/azure2-1.jpg)
+![imagem vm](/img/azure2.jpg)
+
 **Criando uma VM via Azure Portal**
 
 Como criar uma máquina virtual usando o portal Azure, escolhendo a imagem do sistema operacional, tamanho e configuração.
+
+![imagem vm](/img/azure3-1.jpg)
+![imagem vm](/img/azure3.jpg)
 
 **Configuração via Azure CLI**
 
 Aprendemos a criar e configurar uma VM via linha de comando com o comando abaixo:
 
 az vm create --resource-group MeuGrupoDeRecursos --name MinhaVM --image UbuntuLTS --size Standard_B1s
-
-[imagem vm](,/img/)
 
 **Conexão remota com a VM**
 
@@ -99,6 +101,8 @@ Azure Security Center para proteger os recursos, detectar vulnerabilidades e ame
 
 Tela de monitoramento de recursos no Azure.
 
+![imagem vm](/img/azure4-1.jpg)
+![imagem vm](/img/azure4.jpg)
 
 ## Automação no Azure
 
